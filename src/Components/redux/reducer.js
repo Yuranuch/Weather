@@ -2,7 +2,13 @@ export const GET_CITY_PARAMS = "GET_CITY_PARAMS"
 export const GET_CITY_NAME = "GET_CITY_NAME"
 
 const initialState = {
-    params: {main:{}, sys: {}, wind: {}}
+    params: {
+        name: null,
+        base: null,
+        sys: {country: null},
+        main: {temp: null},
+        wind: {speed: null}
+    }
 }
 
 export const reducer = (state=initialState, action) => {

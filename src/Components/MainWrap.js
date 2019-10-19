@@ -15,8 +15,8 @@ class MainWrap extends Component {
 
     searchCity = () => {
         axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${this.props.name}&appid=df2f388e143c802f514a70269fc816c2`)
+        // London,uk
             .then(res => {
-                debugger
                 this.props.getCityParams (res.data)
             })
     }
@@ -34,6 +34,7 @@ class MainWrap extends Component {
 }
 
 const mapStateToProps = (state) => {
+    debugger
     return {
         params: state.params,
         main: state.params.main,
