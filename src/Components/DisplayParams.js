@@ -3,16 +3,17 @@ import styles from "./DisplayParams.module.css"
 
 
 function DisplayParams(props) {
+
+
+
     return (
+
         <div className={styles.displayParams}>
-            <div>{props.params.id}</div>
             <div>{props.params.name}</div>
-            <div>{props.params.visibility}</div>
-            <div>{props.params.cod}</div>
-
-
+            <div> {props.sys.country}</div>
+            <div>{props.main.temp}</div>
+            <div>{props.wind.speed}</div>
         </div>
-
     );
 }
 
