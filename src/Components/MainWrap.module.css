@@ -1,5 +1,9 @@
 .mainWrap {
     width: 700px;
     min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: dodgerblue;
+    margin: 100px auto 0 auto;
 }

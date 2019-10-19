@@ -1,6 +1,8 @@
 .searchMenu {
-
     width: 400px;
-    min-height: 100px;
-    background-color: yellow;
+    min-height: 50px;
+    padding: 10px;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
 }
