@@ -14,7 +14,7 @@ class SearchMenu extends Component {
         return (
             <div className={styles.searchMenu}>
                 <div>
-                    <input onChange={this.getCityName}/>
+                    <input placeholder="Enter city name" onChange={this.getCityName}/>
                     <button onClick={this.onSearchCity}>Show Weather</button>
                 </div>
             </div>

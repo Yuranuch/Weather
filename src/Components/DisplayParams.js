@@ -11,11 +11,10 @@ function DisplayParams(props) {
 
             {props.params.name &&
             <div>
-                <div><b>Name</b> {props.params.name}</div>
-                <div><b>Country</b> {props.sys.country}</div>
-                <div><b>Temperature(Kelvin)</b> {props.main.temp}</div>
-                <div><b>Wind m/s</b> {props.wind.speed}</div>
-                <div><b>Wind direction</b> {props.wind.speed}</div>
+                <span><b>Name</b> {props.params.name}</span>
+                <span><b>Country</b> {props.sys.country}</span>
+                <span><b>Temperature(Kelvin)</b> {props.main.temp}</span>
+                <span><b>Wind m/s</b> {props.wind.speed}</span>
             </div>}
 
         </div>

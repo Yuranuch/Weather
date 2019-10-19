@@ -1,4 +1,12 @@
 .displayParams {
-    background-color: white;
-    min-width: 300px;
+    background: rgba(255, 255, 255, 0.4);
+    max-width: 420px;
+    margin: 10px auto 0 auto;
+    text-align: left;
+}
+.displayParams span {
+    display: block;
+    font-size: 15px;
+    padding: 10px;
+    color: #282828;
 }

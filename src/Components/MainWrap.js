@@ -28,7 +28,6 @@ class MainWrap extends Component {
                 <SearchMenu getCity={this.getCity} searchCity={this.searchCity }/>
                 <DisplayParams {...this.props}/>
             </div>
-
         )
     }
 }
